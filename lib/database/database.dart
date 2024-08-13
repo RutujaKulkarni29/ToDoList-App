@@ -22,7 +22,7 @@ class DatabaseProvider {
   /// Creates the database and initializes it.
   Future<Database> createDatabase() async {
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
-    String path = join(documentsDirectory.path, "ComManthanTodo.db");
+    String path = join(documentsDirectory.path, "TodoApp.db");
 
     var database = await openDatabase(path, version: 1, onCreate: initDB);
     return database;

@@ -8,7 +8,7 @@
 PRODUCT_NAME = todo_app
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.manthan.todoApp
+PRODUCT_BUNDLE_IDENTIFIER = com.rutuja.todoApp
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2024 com.manthan. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2024 com.rutuja. All rights reserved.

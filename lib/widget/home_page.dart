@@ -36,10 +36,10 @@ class _HomePageState extends State<HomePage> {
     SystemChrome.setSystemUIOverlayStyle(
       SystemUiOverlayStyle.dark.copyWith(
         statusBarColor: ColorConstants.primary,
-        statusBarBrightness: Brightness.dark,
+        statusBarBrightness: Brightness.light,
         statusBarIconBrightness: Brightness.light,
         systemNavigationBarColor: ColorConstants.primary,
-        systemNavigationBarIconBrightness: Brightness.dark,
+        systemNavigationBarIconBrightness: Brightness.light,
       ),
     );
     return SafeArea(
@@ -351,7 +351,7 @@ class _HomePageState extends State<HomePage> {
                         child: const Text('Cancel', style: TextStyle(color: ColorConstants.textColor)),
                       ),
                       ElevatedButton(
-                        style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                        style: ElevatedButton.styleFrom(backgroundColor: ColorConstants.primaryLight),
                         onPressed: () {
                           final Todo newTodo;
                           if (todo != null) {

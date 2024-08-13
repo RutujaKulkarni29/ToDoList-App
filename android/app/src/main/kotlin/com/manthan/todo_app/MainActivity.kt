@@ -1,4 +1,4 @@
-package com.manthan.todo_app
+package com.rutuja.todo_app
 
 import io.flutter.embedding.android.FlutterActivity
 

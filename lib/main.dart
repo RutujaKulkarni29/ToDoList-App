@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'ToDo App',
-      theme: ThemeData(primarySwatch: Colors.grey, canvasColor: Colors.transparent),
+      theme: ThemeData(primarySwatch: Colors.deepPurple, canvasColor: Colors.deepPurple),
       home: RepositoryProvider(
         // Provides an instance of TodoRepository to the widget tree
         create: (context) => TodoRepository(),
